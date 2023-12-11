@@ -10,7 +10,7 @@ function App() {
   return (
     <Routes>
       <Route
-        index
+        path="/test"
         element={
           <>
             <div>
