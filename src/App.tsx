@@ -43,7 +43,7 @@ function App() {
       />
 
       <Route
-        path="/test"
+        path="/test/oii"
         element={<h1>Hello world this is the test page</h1>}
       />
     </Routes>
