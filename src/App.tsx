@@ -23,7 +23,12 @@ function App() {
             </div>
             <h1>Vite + Zarah</h1>
             <div className="card">
-              <button onClick={() => navigate("/test")}>
+              <button
+                onClick={() => {
+                  setCount(count + 1);
+                  navigate("/test");
+                }}
+              >
                 count is {count}
               </button>
               <p>
