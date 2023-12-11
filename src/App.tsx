@@ -26,7 +26,7 @@ function App() {
               <button
                 onClick={() => {
                   setCount(count + 1);
-                  navigate("/test");
+                  navigate("/test/oii");
                 }}
               >
                 count is {count}
